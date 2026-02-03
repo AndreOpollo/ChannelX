@@ -17,3 +17,7 @@ data class Channel(
         return if(isOnline) "Online" else "Offline"
     }
 }
+
+enum class ChannelStatus{
+    ALL,ONLINE,OFFLINE
+}
