@@ -2,9 +2,10 @@ package com.opollo.channelx.domain.usecases
 
 import com.opollo.channelx.domain.Channel
 import com.opollo.channelx.domain.ChannelStatus
+import javax.inject.Inject
 
 
-class FilterChannelsUseCase {
+class FilterChannelsUseCase @Inject constructor() {
 
     operator fun invoke(
         channels:List<Channel>,
