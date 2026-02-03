@@ -72,7 +72,7 @@ private val DarkColorScheme = darkColorScheme(
  * @param content Composable content
  */
 @Composable
-fun TVStreamingTheme(
+fun ChannelXTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
