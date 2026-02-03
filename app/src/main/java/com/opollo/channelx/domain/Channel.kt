@@ -1,5 +1,8 @@
 package com.opollo.channelx.domain
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Channel(
     val id: String,
     val name: String,
